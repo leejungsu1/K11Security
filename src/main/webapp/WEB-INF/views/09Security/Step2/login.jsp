@@ -42,7 +42,7 @@ $(function(){
 					<p>로그아웃 하였습니다.</p>
 				</c:if>
 				<!-- 
-					security-context2.xml에서 <security:form-login 항목에 설정한 
+					security-context2.xml에서 < security:form-login 항목에 설정한 
 					이름을 아래 name속성에 사용해야 한다. 
 				 -->
 				<p>

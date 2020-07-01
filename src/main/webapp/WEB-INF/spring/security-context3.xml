@@ -32,7 +32,9 @@
 			authentication-failure-url="/security2/login.do?error"
 			username-parameter="id" 
 			password-parameter="pass"/>
-		<security:logout logout-url="/security2/logout" logout-success-url="/security2/accessDenied.do"/>
+		<security:logout 
+			logout-url="/security2/logout" 
+			logout-success-url="/security2/index.do"/>
 		<security:access-denied-handler error-page="/security2/accessDenied.do"/>
 	</security:http> 
  
